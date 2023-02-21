@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>05testform.html</title>
+    <style>
+        *{font-size: 20pt;}
+    </style>
+</head>
+<body>    
+    <p></p>
+    Lorem Ipsum is <mark> simply dummy text </mark> of the printing and typesetting industry. <br>
+     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s <br>
+
+    <p></p>
+        <figure>
+            <img src="./images/bt.png" alt="">
+            <figcaption>aaabbbccc</figcaption>
+        </figure>
+
+        <p></p>
+        <form action="">
+            <label for="title"> 제목 <input type="text" name="title" id="title" autofocus> </label> <br>
+            컬러 <input type="color"> <br>
+            메일 <input type="email" required> <br>
+            시간 <input type="time"> <br>
+            날짜 <input type="date"> <br>
+            범위 <input type="range"> <br> 
+            검색 <input type="search" name="" id=""> <br>
+            파일 <input type="file" accept="image/*" multiple name="" id=""> <br>
+
+            <select name="" id="">
+                <option value="">서울</option>
+                <option value="">경기도</option>
+                <option value="">인천광역시</option>
+                <option value="">제주</option>
+            </select> <br>
+
+            <label for="">지역</label>
+            <input type="text" list="sample">
+            <datalist id="sample">
+                <option value="김포"></option>
+                <option value="선유도"></option>
+                <option value="제주"></option>
+            </datalist> <p></p>
+
+            <button>확인</button>
+            <button>취소</button>
+        </form>
+
+        <p style="margin-bottom: 150px;"></p>
+</body>
+</html>

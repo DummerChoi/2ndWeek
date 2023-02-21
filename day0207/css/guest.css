@@ -1,0 +1,25 @@
+*{
+    font-size: 14pt;
+    font-weight: bold;
+    font-family: Comic Sans Ms;
+}
+#title_ch, #email_ch{
+    margin-left: 5px;
+    font-size: 12pt;
+    color: red;
+}
+
+.input_group{
+    height: 30px;
+    margin-bottom: 5px;
+
+}
+.iput_button1{
+    height: 40px;
+    margin-left: 60px;
+    border-radius: 10px;
+}
+.iput_button2{
+    height: 40px;
+    border-radius: 10px;
+}
